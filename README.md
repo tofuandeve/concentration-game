@@ -21,9 +21,6 @@ Concentration (or Pairs) is a card game in which all of the cards are laid face 
 1.  Add more cards to the game.
 1.  Add a “New Game” button to your UI which ends the current game in progress and
 begins a brand new game.
-1.  Currently the cards in the Model are not randomized (that’s why matching cards end
-up always in the same place in our UI). Shuffle the cards in Concentration’s init()
-method.
 1.  Give your game the concept of a “theme”. A theme determines the set of emoji from
 which cards are chosen. All emoji in a given theme are related by that theme. See the
 Hints for example themes. Your game should have at least 6 different themes and
