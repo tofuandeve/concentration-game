@@ -53,6 +53,7 @@
 		4C12FAB123BDD9FF00AAE8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C12FABD23BEC68F00AAE8E2 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 		4C12FABF23BEC71500AAE8E2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4C12FAC123BF184000AAE8E2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 		4C12FA8123BDD9F800AAE8E2 = {
 			isa = PBXGroup;
 			children = (
+				4C12FAC123BF184000AAE8E2 /* README.md */,
 				4C12FA8C23BDD9F800AAE8E2 /* concentration-game */,
 				4C12FAA323BDD9FF00AAE8E2 /* concentration-gameTests */,
 				4C12FAAE23BDD9FF00AAE8E2 /* concentration-gameUITests */,
