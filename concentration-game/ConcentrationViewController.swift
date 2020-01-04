@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ConcentrationViewController: UIViewController {
     lazy var game = Concentration(numberOfPairsOfCards: (cardCollection.count + 1) / 2)
     
     var gameIsOver: Bool = false {
