@@ -28,9 +28,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWe-AH-VoG">
-                                        <rect key="frame" x="2" y="56" width="85" height="48"/>
+                                        <rect key="frame" x="11.666666666666657" y="56" width="66" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Candy"/>
+                                        <state key="normal" title="Food"/>
                                         <connections>
                                             <segue destination="BYZ-38-t0r" kind="show" identifier="Choose Theme" id="cAP-aS-tQi"/>
                                         </connections>
