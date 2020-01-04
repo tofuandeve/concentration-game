@@ -51,10 +51,18 @@ class ConcentrationViewController: UIViewController {
         }
     }
     
-    var emojiChoices = ["♥️", "🐶", "🍩", "🍙", "🧁", "😈", "🌼", "❄️", "🥑", "🍔"]
-    var emojis = [Int:String]()
+    var theme: Array<String>? {
+        didSet{
+            emojiChoices = theme ?? []
+            emojis = [:]
+            updateViewFromModel()
+        }
+    }
     
-    func emoji(for card:Card) -> String  {
+    private var emojiChoices = ["♥️", "🐶", "🍩", "🍙", "🧁", "😈", "🌼", "❄️", "🥑", "🍔"]
+    private var emojis = [Int:String]()
+    
+    private func emoji(for card:Card) -> String  {
         if emojis[card.identifier] == nil, emojiChoices.count > 0 {
             let randomIndex = Int(arc4random_uniform(UInt32(emojiChoices.count)))
             
